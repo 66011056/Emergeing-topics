@@ -69,3 +69,5 @@ bertopic-dashboard/
 ├── tests/
 ├── requirements.txt
 └── README.md
+
+```
