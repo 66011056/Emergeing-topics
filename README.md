@@ -81,17 +81,24 @@ This project adds:
 
 ---
 ## Visual Outputs
-### Topic Summary This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic. 
 
-### Emerging Topics Chart This chart ranks the topics with the highest emerging scores, helping identify which topics are growing most rapidly. 
+### Topic Summary
+This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic. 
 
-### Emerging Topics Table This table compares recent topic frequency with previous topic frequency and calculates the emerging score. 
+### Emerging Topics Chart
+This chart ranks the topics with the highest emerging scores, helping identify which topics are growing most rapidly. 
 
-### Top Topics by Count This bar chart highlights the most frequent topics in the selected dataset sample. 
+### Emerging Topics Table 
+This table compares recent topic frequency with previous topic frequency and calculates the emerging score. 
 
-### Topics Over Time This chart shows the raw frequency of the most important topics across time. 
+### Top Topics by Count 
+This bar chart highlights the most frequent topics in the selected dataset sample. 
 
-### Smoothed Topic Trends This chart applies **exponential moving average (EMA)** smoothing to reduce short-term noise and make long-term topic patterns easier to interpret. 
+### Topics Over Time 
+This chart shows the raw frequency of the most important topics across time. 
+
+### Smoothed Topic Trends 
+This chart applies **exponential moving average (EMA)** smoothing to reduce short-term noise and make long-term topic patterns easier to interpret. 
 
 --- 
 
