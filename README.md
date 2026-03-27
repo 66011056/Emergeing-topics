@@ -88,9 +88,14 @@ This project adds:
 ---
 ## Visual Outputs
 <img width="1843" height="878" alt="Screenshot 2026-03-28 002804" src="https://github.com/user-attachments/assets/5a4d8f60-d38c-486a-b166-d94d1cf0ceb7" />
+<img width="1848" height="880" alt="Screenshot 2026-03-28 002831" src="https://github.com/user-attachments/assets/35500f60-420a-4ab3-baf5-3efc3244e500" />
 
 ### Topic Summary
 This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic. 
+
+
+<img width="1822" height="931" alt="Screenshot 2026-03-28 002851" src="https://github.com/user-attachments/assets/7d2d5aba-f8c0-4dcc-a3bf-1532478f657f" />
+
 
 ### Emerging Topics Chart
 This chart ranks the topics with the highest emerging scores, helping identify which topics are growing most rapidly. 
@@ -98,11 +103,19 @@ This chart ranks the topics with the highest emerging scores, helping identify w
 ### Emerging Topics Table 
 This table compares recent topic frequency with previous topic frequency and calculates the emerging score. 
 
+<img width="1857" height="550" alt="Screenshot 2026-03-28 002907" src="https://github.com/user-attachments/assets/543a54eb-c14b-4283-bb45-b48908dd8ab5" />
+
 ### Top Topics by Count 
 This bar chart highlights the most frequent topics in the selected dataset sample. 
 
+
+<img width="1904" height="550" alt="Screenshot 2026-03-28 002932" src="https://github.com/user-attachments/assets/f78695d4-f0a3-40a2-8b3f-9f6f7bdd390e" />
+
 ### Topics Over Time 
 This chart shows the raw frequency of the most important topics across time. 
+
+<img width="1841" height="579" alt="Screenshot 2026-03-28 002950" src="https://github.com/user-attachments/assets/9f327e67-5ea1-43ee-8327-46f8615030f2" />
+
 
 ### Smoothed Topic Trends 
 This chart applies **exponential moving average (EMA)** smoothing to reduce short-term noise and make long-term topic patterns easier to interpret. 
