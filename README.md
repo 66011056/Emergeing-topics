@@ -123,3 +123,13 @@ py -m pip install -r requirements.txt
 ```powershell
 py -m streamlit run app/main.py
 ```
+
+---
+
+###Data set fetch from **[Kaggle](https://www.kaggle.com/datasets/notlucasp/financial-news-headlines?utm_source=chatgpt.com)**
+
+| Dataset Role | Column Name | Example Value | Why It Is Used |
+|--------------|-------------|---------------|----------------|
+| Time Column  | `Time`      | 2020-01-01    | Tracks how topics change over time |
+| Text Column  | `Headlines` | Market falls sharply | Provides the main sentence for topic modeling |
+| Extra Text Column | `Description` | Stocks dropped after new trade concerns. | Gives additional detail so topics are more meaningful |
