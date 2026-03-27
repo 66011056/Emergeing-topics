@@ -1,136 +1,71 @@
 # BERTopic Emerging Topic Dashboard
 
-## Overview
-This project is an interactive text analytics dashboard built with **Streamlit** and **BERTopic**.  
-It allows a user to upload a CSV dataset, choose a text column and a time column, and then run topic modeling to discover major themes in the data.
+## Project Overview
+This project develops an interactive dashboard for discovering hidden themes in text datasets using BERTopic. The system allows users to upload a CSV dataset, choose text and time columns, and run topic modeling to identify major topics, track how they change over time, and detect emerging trends.
 
-The dashboard is designed to answer three practical questions:
-
-1. What are the main topics in the dataset?
-2. How do those topics change over time?
-3. Which topics are emerging more quickly than others?
-
-This version of the project focuses on **clear topic interpretation** and **simpler trend visualization**.  
-Instead of using a complex hierarchical topic chart, the dashboard emphasizes:
-
-- topic summary
-- emerging topics chart
-- emerging topics table
-- top topics by count
-- topics over time
-- smoothed topic trends
+The main goal of the project is to demonstrate practical data science skills in text preprocessing, topic modeling, trend analysis, data visualization, and dashboard design.
 
 ---
 
-## Why BERTopic
-BERTopic was chosen because it can generate topics from text using semantic embeddings rather than only word counts. This makes it more suitable for short text data such as headlines and descriptions.
+## Project Objectives
+The dashboard was designed to answer three main questions:
 
-Compared with traditional topic modeling methods, BERTopic provides:
+1. What are the main topics present in the dataset?
+2. How do these topics change over time?
+3. Which topics appear to be emerging more rapidly than others?
 
-- more meaningful topic grouping
-- interpretable keyword-based topic labels
-- integration with time-based topic analysis
-
----
-
-## Why Time-Based Trend Analysis
-Topic modeling alone only tells us what themes exist in the dataset.  
-However, many real-world text datasets also contain time information, which allows us to study how those themes change.
-
-This project adds:
-
-- **Topics Over Time** to show raw topic frequency changes
-- **Smoothed Topic Trends** using exponential moving average (EMA)
-- **Emerging Topic Detection** to identify fast-growing topics
-
-These additions make the dashboard more useful for understanding trends, not just topic clusters.
+By combining topic modeling with temporal analysis, the system moves beyond static clustering and provides more interpretable trend-based insights.
 
 ---
 
-## Visual Outputs<img width="861" height="552" alt="Screenshot 2026-03-27 035915" src="https://github.com/user-attachments/assets/63d4d793-9571-4071-80c1-00b8c014f328" />
-
-![App Screenshot](images/screenshot.png)
-### Topic Summary
-This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic.
-
-### Emerging Topics Chart
-This chart ranks the topics with the highest emerging scores, helping identify which topics are growing most rapidly.
-
-### Emerging Topics Table
-This table compares recent topic frequency with previous topic frequency and calculates the emerging score.
-
-### Top Topics by Count
-This bar chart highlights the most frequent topics in the selected dataset sample.
-
-### Topics Over Time
-This chart shows the raw frequency of the most important topics across time.
-
-### Smoothed Topic Trends
-This chart applies **exponential moving average (EMA)** smoothing to reduce short-term noise and make long-term topic patterns easier to interpret.
+## Main Features
+- Upload CSV datasets for analysis
+- Select a main text column and optionally combine it with a second text column
+- Select a valid time column for temporal trend analysis
+- Run BERTopic topic modeling
+- Display topic summary results
+- Visualize top topics by frequency
+- Show topics over time
+- Show smoothed topic trends using exponential moving average
+- Detect and rank emerging topics
 
 ---
 
-## Why Sampling Is Used
-BERTopic can be computationally expensive because it performs several processing steps, including:
+## Why BERTopic Was Used
+BERTopic was selected because it combines semantic embeddings, clustering, and keyword-based topic representation. Compared with traditional topic modeling methods, BERTopic can better capture meaning in short texts such as headlines or descriptions.
 
-- text embedding
-- dimensionality reduction
-- clustering
-- topic representation
-
-To improve speed and make the dashboard easier to use, this version allows the user to choose a sample size before training.
+This makes it suitable for datasets where topics are not explicitly labeled and where understanding theme evolution over time is important.
 
 ---
 
-## Recommended Dataset Format
-The dashboard works best with a CSV file containing:
+## Why Time-Based Analysis Was Added
+Topic modeling alone only identifies clusters of related documents. However, many real-world datasets also contain time information, which makes it possible to study how topics rise or decline.
 
-- one text column such as `headline`, `description`, `abstract`, or `title`
-- one valid date/time column
+For this reason, the project adds:
+- topic-over-time analysis
+- emerging-topic scoring
+- exponential smoothing for trend interpretation
 
-Example:
-
-```csv
-Time,Headlines,Description
-2020-01-01,"Market falls sharply","Stocks dropped after new trade concerns."
-2020-01-02,"Oil prices rise","Energy markets reacted to supply expectations."
-2020-01-03,"Tech firms announce earnings","Several companies released quarterly reports."
-```
----
-
-## How to Run the Project in the Terminal
-
-After downloading or extracting the project folder, open the folder in **Visual Studio Code**.
-
-Then open the **terminal** in VS Code and run these commands step by step.
-
-### 1. Move into the project folder
-```powershell
-cd $HOME\Downloads\bertopic-dashboard\bertopic-dashboard
-```
----
-
-### 2. Check that the files are there
-```powershell
-dir
-```
-
-### 3. Install the required packages
-```powershell
-py -m pip install -r requirements.txt
-```
-
-### 4. Run the Streamlit dashboard
-```powershell
-py -m streamlit run app/main.py
-```
+These components make the dashboard easier to use for trend discovery rather than only topic extraction.
 
 ---
 
-### Data set fetch from **[Kaggle](https://www.kaggle.com/datasets/notlucasp/financial-news-headlines?utm_source=chatgpt.com)**
-
-| Dataset Role | Column Name | Example Value | Why It Is Used |
-|--------------|-------------|---------------|----------------|
-| Time Column  | `Time`      | 2020-01-01    | Tracks how topics change over time |
-| Text Column  | `Headlines` | Market falls sharply | Provides the main sentence for topic modeling |
-| Extra Text Column | `Description` | Stocks dropped after new trade concerns. | Gives additional detail so topics are more meaningful |
+## Folder Structure
+```bash
+bertopic-dashboard/
+│
+├── app/
+│   └── main.py
+├── src/
+│   ├── data_loader.py
+│   ├── preprocess.py
+│   ├── topic_model.py
+│   ├── trend_analysis.py
+│   ├── visualization.py
+│   └── utils.py
+├── data/
+├── outputs/
+├── notebooks/
+├── tests/
+├── requirements.txt
+└── README.md
