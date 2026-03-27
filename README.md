@@ -108,12 +108,13 @@ This project adds:
 - one valid date/time column
 
 Example:
-
+```bash
 csv
 Time,Headlines,Description
 2020-01-01,"Market falls sharply","Stocks dropped after new trade concerns."
 2020-01-02,"Oil prices rise","Energy markets reacted to supply expectations."
 2020-01-03,"Tech firms announce earnings","Several companies released quarterly reports."
+```
 ---
 
 ## How to Run the Project in the Terminal 
@@ -123,19 +124,25 @@ After downloading or extracting the project folder, open the folder in **Visual 
 Then open the **terminal** in VS Code and run these commands step by step. 
 
 ### 1. Move into the project folder
-```bash
+
 powershell
+```bash
 cd $HOME\Downloads\bertopic-dashboard\bertopic-dashboard
 ```
 --- 
 
 ### 2. Check that the files are there
 powershell
+```bash
 dir
+```
 ### 3. Install the required packages
 powershell
+```bash
 py -m pip install -r requirements.txt
+```
 ### 4. Run the Streamlit dashboard
 powershell
+```bash
 py -m streamlit run app/main.py
-
+```
