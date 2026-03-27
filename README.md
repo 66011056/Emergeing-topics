@@ -123,9 +123,10 @@ After downloading or extracting the project folder, open the folder in **Visual 
 Then open the **terminal** in VS Code and run these commands step by step. 
 
 ### 1. Move into the project folder
-
+```bash
 powershell
 cd $HOME\Downloads\bertopic-dashboard\bertopic-dashboard
+```
 --- 
 
 ### 2. Check that the files are there
