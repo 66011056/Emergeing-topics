@@ -8,7 +8,7 @@ The main goal of the project is to demonstrate practical data science skills in 
 
 https://github.com/user-attachments/assets/ea9024e8-e695-4a11-8e26-cc221b9f1e00
 
-// i have attached a video in case the files have issues.
+ i have attached a video in case the files have issues.
 
 
 ---
@@ -37,14 +37,14 @@ By combining topic modeling with temporal analysis, the system moves beyond stat
 
 ---
 
-## Why BERTopic Was Used
+## Why BERTopic?
 BERTopic was selected because it combines semantic embeddings, clustering, and keyword-based topic representation. Compared with traditional topic modeling methods, BERTopic can better capture meaning in short texts such as headlines or descriptions.
 
 This makes it suitable for datasets where topics are not explicitly labeled and where understanding theme evolution over time is important.
 
 ---
 
-## Why Time-Based Analysis Was Added
+## Why Time-Based Analysis was Added
 Topic modeling alone only identifies clusters of related documents. However, many real-world datasets also contain time information, which makes it possible to study how topics rise or decline.
 
 For this reason, the project adds:
@@ -77,7 +77,7 @@ bertopic-dashboard/
 └── README.md
 
 ```
----
+
 This project adds: 
 - **Topics Over Time** to show raw topic frequency changes
 - **Smoothed Topic Trends** using exponential moving average (EMA)
@@ -86,14 +86,16 @@ This project adds:
   These additions make the dashboard more useful for understanding trends, not just topic clusters.
 
 ---
+
 ## Visual Outputs
 <img width="1843" height="878" alt="Screenshot 2026-03-28 002804" src="https://github.com/user-attachments/assets/5a4d8f60-d38c-486a-b166-d94d1cf0ceb7" />
 <img width="1848" height="880" alt="Screenshot 2026-03-28 002831" src="https://github.com/user-attachments/assets/35500f60-420a-4ab3-baf5-3efc3244e500" />
 
 ### Topic Summary
-This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic. 
----
+This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic.
 
+---
+---
 <img width="1822" height="931" alt="Screenshot 2026-03-28 002851" src="https://github.com/user-attachments/assets/7d2d5aba-f8c0-4dcc-a3bf-1532478f657f" />
 
 
