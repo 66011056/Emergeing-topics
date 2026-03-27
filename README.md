@@ -109,16 +109,17 @@ cd $HOME\Downloads\bertopic-dashboard\bertopic-dashboard
 ```
 ---
 
-2. Check that the files are there
+### 2. Check that the files are there
+```powershell
 dir
+```
 
-You should see files and folders such as:
-
-app
-src
-requirements.txt
-README.md
-3. Install the required packages
+### 3. Install the required packages
+```powershell
 py -m pip install -r requirements.txt
-4. Run the Streamlit dashboard
+```
+
+### 4. Run the Streamlit dashboard
+```powershell
 py -m streamlit run app/main.py
+```
