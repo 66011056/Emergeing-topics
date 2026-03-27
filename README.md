@@ -5,6 +5,22 @@ This project develops an interactive dashboard for discovering hidden themes in 
 
 The main goal of the project is to demonstrate practical data science skills in text preprocessing, topic modeling, trend analysis, data visualization, and dashboard design.
 
+
+https://github.com/user-attachments/assets/ea9024e8-e695-4a11-8e26-cc221b9f1e00
+
+
+
+https://github.com/user-attachments/assets/ea9024e8-e695-4a11-8e26-cc221b9f1e00
+
+
+
+https://github.com/user-attachments/assets/4008604e-90f2-4ae5-aba1-827a96a82760
+
+
+
+https://github.com/user-attachments/assets/4008604e-90f2-4ae5-aba1-827a96a82760
+
+
 ---
 
 ## Project Objectives
