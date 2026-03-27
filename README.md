@@ -92,7 +92,7 @@ This project adds:
 
 ### Topic Summary
 This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic. 
-
+---
 
 <img width="1822" height="931" alt="Screenshot 2026-03-28 002851" src="https://github.com/user-attachments/assets/7d2d5aba-f8c0-4dcc-a3bf-1532478f657f" />
 
@@ -102,18 +102,18 @@ This chart ranks the topics with the highest emerging scores, helping identify w
 
 ### Emerging Topics Table 
 This table compares recent topic frequency with previous topic frequency and calculates the emerging score. 
-
+---
 <img width="1857" height="550" alt="Screenshot 2026-03-28 002907" src="https://github.com/user-attachments/assets/543a54eb-c14b-4283-bb45-b48908dd8ab5" />
 
 ### Top Topics by Count 
 This bar chart highlights the most frequent topics in the selected dataset sample. 
-
+---
 
 <img width="1904" height="550" alt="Screenshot 2026-03-28 002932" src="https://github.com/user-attachments/assets/f78695d4-f0a3-40a2-8b3f-9f6f7bdd390e" />
 
 ### Topics Over Time 
 This chart shows the raw frequency of the most important topics across time. 
-
+---
 <img width="1841" height="579" alt="Screenshot 2026-03-28 002950" src="https://github.com/user-attachments/assets/9f327e67-5ea1-43ee-8327-46f8615030f2" />
 
 
