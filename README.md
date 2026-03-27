@@ -126,7 +126,7 @@ py -m streamlit run app/main.py
 
 ---
 
-###Data set fetch from **[Kaggle](https://www.kaggle.com/datasets/notlucasp/financial-news-headlines?utm_source=chatgpt.com)**
+### Data set fetch from **[Kaggle](https://www.kaggle.com/datasets/notlucasp/financial-news-headlines?utm_source=chatgpt.com)**
 
 | Dataset Role | Column Name | Example Value | Why It Is Used |
 |--------------|-------------|---------------|----------------|
