@@ -47,8 +47,9 @@ These additions make the dashboard more useful for understanding trends, not jus
 
 ---
 
-## Visual Outputs
+## Visual Outputs<img width="861" height="552" alt="Screenshot 2026-03-27 035915" src="https://github.com/user-attachments/assets/63d4d793-9571-4071-80c1-00b8c014f328" />
 
+![App Screenshot](images/screenshot.png)
 ### Topic Summary
 This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic.
 
