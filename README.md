@@ -8,17 +8,7 @@ The main goal of the project is to demonstrate practical data science skills in 
 
 https://github.com/user-attachments/assets/ea9024e8-e695-4a11-8e26-cc221b9f1e00
 
-
-
-https://github.com/user-attachments/assets/ea9024e8-e695-4a11-8e26-cc221b9f1e00
-
-
-
-https://github.com/user-attachments/assets/4008604e-90f2-4ae5-aba1-827a96a82760
-
-
-
-https://github.com/user-attachments/assets/4008604e-90f2-4ae5-aba1-827a96a82760
+// i have attached a video in case the files have issues.
 
 
 ---
@@ -97,6 +87,7 @@ This project adds:
 
 ---
 ## Visual Outputs
+<img width="1843" height="878" alt="Screenshot 2026-03-28 002804" src="https://github.com/user-attachments/assets/5a4d8f60-d38c-486a-b166-d94d1cf0ceb7" />
 
 ### Topic Summary
 This table shows the discovered topics, how many documents belong to each topic, and the representative keywords for each topic. 
