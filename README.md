@@ -142,6 +142,7 @@ This chart applies **exponential moving average (EMA)** smoothing to reduce shor
 - one text column such as headline, description, abstract, or title
 - one valid date/time column
 
+In the example dataset from https://www.kaggle.com/datasets/notlucasp/financial-news-headlines , kaggle - financial news head line is used.
 Example:
 ```bash
 csv
